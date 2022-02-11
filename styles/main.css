@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -28,35 +27,4 @@ body, html {
 
 .principal {
     display: flex;
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    font-size: 100%;
-}
-
-.nav-imagem {
-    margin: 10px;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    border-bottom: 3px solid white;
-}
-
-.nav-text {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.principal {
-    display: flex;
->>>>>>> b958f71392d6627379585ea7d1fef38b76424f52
 }
