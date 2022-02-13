@@ -1,3 +1,6 @@
+/* Import das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&family=Righteous&family=Roboto:wght@300&family=Sarala:wght@700&display=swap');
+
 /* Reset mode */
 * {
     margin: 0;
@@ -39,9 +42,10 @@ body, html {
 
 /* Estilo dos itens da header */
 .container-header-main-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
     margin-top: 35px;
     margin-left: 15px;
-    font-size: 22px;
     color: floralwhite;
     align-items: center;
 }
@@ -93,6 +97,7 @@ input:checked+.slider::before {
 
 /* Pré dark-mode */
 #container {
+    font-family: "Roboto", sans-serif;
     width: 100%;
     height: 87.3vh;
     display: flex;
